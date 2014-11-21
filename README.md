@@ -9,7 +9,7 @@ with it you can create an image (Ubuntu 14.04, with Ruby, Rubygems and Thin) and
 Simply clone the repo, build an image, and proceed to run containers from it.
 
 ````sh
-git clone git@github.com:dvallance/dockerfile-thin-server.git
+git clone https://github.com/dvallance/dockerfile-thin-server.git
 cd dockerfile-thin-server
 
 # docker needs to be installed
