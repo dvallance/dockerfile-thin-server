@@ -14,7 +14,7 @@ cd dockerfile-thin-server
 
 # docker needs to be installed
 
-sudo docker build -t thin-server:v1 
+sudo docker build -t thin-server:v1 .
 # replace (thin-server:v1) with any image repository name (and optionally tag) you wish
 
 # then build an actual container from that image (mapping your application directory with config.ru
